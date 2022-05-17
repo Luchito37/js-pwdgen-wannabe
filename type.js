@@ -8,11 +8,7 @@ const luogoNascitaUtente = prompt ("Dove sei nato?")
 
 const etaUtente = 2022 - annoNascitaUtente;
 
-// Recuperiamo l'elemento html con id "span-nome-utente"
-
 const spanNomeUtente = document.getElementById("span-nome-utente");
-
-// assegniamo un valore alla proprietà innerHTML
 
 spanNomeUtente.innerHTML = `<strong class="text-danger">
                             ${nomeUtente} ${cognomeUtente}
