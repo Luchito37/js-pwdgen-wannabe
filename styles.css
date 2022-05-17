@@ -1,0 +1,17 @@
+.javaloaper{
+    background-image: url(img/imagine-bella.jpeg);
+    height: 100vh;
+}
+
+
+.space-space{
+    padding-top: 100px;
+}
+
+.helloworld{
+    text-align: center;
+    border: solid 5px white;
+    border-radius: 20px;
+    box-shadow: -8px 6px 7px 2px #b6adad;
+    color: white;
+}
