@@ -12,6 +12,8 @@ const etaUtente = 2022 - annoNascitaUtente;
 
 const spanNomeUtente = document.getElementById("span-nome-utente");
 
+console.log("Perciò la tua password sarà" + nomeUtente + cognomeUtente + colorePreferitoUtente + "22");
+
 spanNomeUtente.innerHTML = `<strong class="text-danger">
                             ${nomeUtente} ${cognomeUtente}
                             </strongs><br>
@@ -21,3 +23,11 @@ spanNomeUtente.innerHTML = `<strong class="text-danger">
                             <small class="text-white">and born in <span class="text-danger">${luogoNascitaUtente}</span></small>
                             <br>
                             <small class="text-white">and your favourite color is <span class="text-danger">${colorePreferitoUtente}</span></small>.`;
+
+
+
+const spanPasswordUtente = document.getElementById("span-password");
+
+spanPasswordUtente.innerHTML = `<strong class="text-dark">
+                                ${nomeUtente}${cognomeUtente}${colorePreferitoUtente}
+                                </strong>`;
